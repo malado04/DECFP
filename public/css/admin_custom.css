@@ -1,0 +1,145 @@
+
+    .section-card {
+        border-left: 4px solid #28a745;
+        padding: 15px;
+        margin-bottom: 20px;
+        background-color: #f9f9f9;
+        border-radius: 6px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+    .section-card h4 {
+        margin-bottom: 15px;
+        font-weight: 600;
+        color: #28a745;
+    }
+
+    /* ==============================
+   CARDS AVEC BORDE GAUCHE COLORÉ
+   ============================== */
+.card-left-primary {
+    border-left: 6px solid #007bff;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.card-left-success {
+    border-left: 7px solid #28a745 !important;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.card-left-warning {
+    border-left: 7px solid #ffc107 !important;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.card-left-danger {
+    border-left: 7px solid #dc3545 !important;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.card-left-info {
+    border-left: 7px solid #17a2b8 !important;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+/* ==============================
+   CARDS AVEC BORDE SUPÉRIEUR COLORÉ
+   ============================== */
+.card-top-primary {
+    border-top: 6px solid #007bff;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.card-top-success {
+    border-top: 7px solid #28a745 !important;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.card-top-warning {
+    border-top: 7px solid #ffc107 !important;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.card-top-danger {
+    border-top: 7px solid #dc3545 !important;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.card-top-info {
+    border-top: 7px solid #17a2b8 !important;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+/* ==============================
+   BADGES
+   ============================== */
+.badge-role {
+    font-size: 0.85rem;
+    padding: 0.35em 0.5em;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.badge-status-active {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.badge-status-inactive {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* ==============================
+   BOUTONS D'ACTION COMPACTS
+   ============================== */
+.action-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85rem;
+}
+
+/* ==============================
+   DATATABLES STYLING
+   ============================== */
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    padding: 0.35rem 0.5rem;
+}
+
+/* Responsive DataTables hover effect */
+table.dataTable tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Align buttons and icons */
+td .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ==============================
+   UTILITAIRES SUPPLÉMENTAIRES
+   ============================== */
+.float-end {
+    float: right !important;
+}
+
+.text-truncate {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
