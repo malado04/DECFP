@@ -1,4 +1,4 @@
-# DEC/DECFP — Examination Management System
+# DEC/DECFP — Professional examination administration and assessment platform
 
 A web-based examination management system designed to manage professional examinations in Senegal.
 
